@@ -1,39 +1,33 @@
-# SurvivalcraftNET
+# 生存战争2.4 NET联机版客户端发布页面
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+[English](README_en.md)
 
-#### 软件架构
-软件架构说明
+## 项目简介
 
+本项目旨在给生存战争（Survivalcraft）NET版完善完整的联机功能，让玩家能够在同一世界中进行游戏、建造和探索。项目基于C#开发，支持多平台（Windows、Android、Linux、预计Macos、Ios）。
 
-#### 安装教程
+当前版本：2.4
+时间：2025-01-17
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 项目更新与反馈
 
-#### 使用说明
+#### 项目更新
+- 我们会定期更新项目，修复bug并优化功能
+- 最新版本信息可在项目首页查看
+- 重要更新会通过Git Release发布
+- 建议玩家定期检查更新，获取更好的游戏体验
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 问题反馈
+1. 发现bug后，通过创建Issue汇报（使用bug标签），描述bug现象和复现步骤
+2. 功能建议请使用feature标签提交Issue
 
-#### 参与贡献
+### 客户端连接方式
+1. **局域网连接**：直接搜索局域网内的服务器或输入IP地址连接
+2. **虚拟局域网**：使用第三方软件（如向日葵、蛤蟆吃）创建虚拟局域网后连接
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## 注意事项
 
+- 跨平台联机时请注意版本兼容性
+- 服务器性能会影响支持的最大玩家数量
+- 网络质量对游戏体验有显著影响，建议使用稳定的网络连接
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
