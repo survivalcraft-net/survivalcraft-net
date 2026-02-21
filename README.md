@@ -1,13 +1,15 @@
 # 生存战争2.4 NET联机版客户端发布页面
 
-[English](README_en.md)
+[English](README_en.md) | [Русский](README_ru.md)
 
 ## 项目简介
 
 本项目旨在给生存战争（Survivalcraft）NET版完善完整的联机功能，让玩家能够在同一世界中进行游戏、建造和探索。项目基于C#开发，支持多平台（Windows、Android、Linux、预计Macos、Ios）。
 
-当前版本：2.4
-时间：2025-01-17
+## 当前版本：2.4
+SCNETx26.02.05
+## 上次提交时间
+2025年02月21日
 
 ### 项目更新与反馈
 
