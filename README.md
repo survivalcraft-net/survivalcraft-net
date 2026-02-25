@@ -6,6 +6,23 @@
 
 本项目旨在给生存战争（Survivalcraft）NET版完善完整的联机功能，让玩家能够在同一世界中进行游戏、建造和探索。项目基于C#开发，支持多平台（Windows、Android、Linux、预计Macos、Ios）。
 
+## 项目地址
+开发项目地址
+https://cnb.cool/trk34Organization/sc2.2network
+
+正式版本发布地址
+https://cnb.cool/trk34Organization/sc2.2publish
+
+fork发布地址
+https://cnb.cool/YYLMZXC/sc2.2publish
+
+GitHub发布地址
+https://github.com/survivalcraft-net/survivalcraft-net
+
+GitHub Pages
+https://survivalcraft-net.github.io/
+
+
 ## 当前版本：2.4
 SCNETx26.02.05
 ## 上次提交时间

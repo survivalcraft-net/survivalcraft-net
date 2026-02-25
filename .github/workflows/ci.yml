@@ -1,0 +1,36 @@
+# 项目构建和测试的CI工作流
+name: CI
+
+# 在推送到main/master分支和针对这些分支的PR时触发工作流
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    # 在最新的Ubuntu运行器上执行任务
+    runs-on: ubuntu-latest
+
+    steps:
+    # 检出代码库
+    - uses: actions/checkout@v4
+
+    # 设置Node.js 18环境
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    # 使用npm ci安装依赖（比npm install更快更可靠）
+    - name: Install dependencies
+      run: npm ci
+
+    # 构建项目
+    - name: Build
+      run: npm run build
+
+    # 运行测试以确保代码质量
+    - name: Test
+      run: npm test
