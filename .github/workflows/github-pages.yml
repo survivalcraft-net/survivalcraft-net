@@ -1,0 +1,45 @@
+# GitHub Pages部署工作流
+name: Deploy GitHub Pages
+
+# 在推送到main/master分支时触发部署
+on:
+  push:
+    branches: [ main, master ]
+
+# 权限配置，允许工作流部署GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    # 在最新的Ubuntu运行器上执行部署任务
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    # 检出代码库
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        # 确保获取所有历史记录，以便正确生成页面
+        fetch-depth: 0
+
+    # 设置GitHub Pages构建环境
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+
+    # 上传构建产物（直接使用.md文件）
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        # 上传整个仓库内容，包括.md文件
+        path: '.'
+
+    # 部署到GitHub Pages
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

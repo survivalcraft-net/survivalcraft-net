@@ -32,3 +32,32 @@ SCNETx26.02.05
 - Note cross-platform compatibility when playing across platforms
 - Server performance affects the maximum number of players supported
 - Network quality has a significant impact on the gaming experience; a stable network connection is recommended
+
+## Links
+
+Server Management Group
+qq893387376
+Join the group chat [Server List Management Office.]: https://qm.qq.com/q/mT1vqQ0JV0
+![server](res/server.png)
+
+Multiplayer Mod Development
+qq1063334551
+Join the group chat [Multiplayer Development Mod Plugin Exchange]: https://qm.qq.com/q/D3e6wA5jP4
+![mod](res/mod.png)
+
+Mod General Development Group
+qq638052328
+
+Telegram:
+Announcement
+https://t.me/sc2netg
+![tg1](res/tg1.png)
+
+Chat
+https://t.me/sc2net
+![tg2](res/tg2.png)
+
+Discord：
+Discord is the Survivalcraft general group, not created separately
+Discord is posted under this group, you need to get relevant permissions to view
+https://discord.com/channels/325662319306735625/1471844299917230304/1471844299917230304
