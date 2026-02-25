@@ -1,0 +1,13 @@
+# Jekyll 配置文件
+# 用于 GitHub Pages 构建
+
+# 网站设置
+name: SCNET
+description: 生存战争联机版发布页
+
+# 主题设置
+theme: minima
+
+# 构建设置
+markdown: kramdown
+permalink: pretty

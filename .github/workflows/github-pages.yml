@@ -32,12 +32,19 @@ jobs:
     - name: Setup Pages
       uses: actions/configure-pages@v5
 
-    # 上传构建产物（直接使用.md文件）
+    # 使用Jekyll构建网站（处理.md文件）
+    - name: Build with Jekyll
+      uses: actions/jekyll-build-pages@v1
+      with:
+        source: ./
+        destination: ./_site
+
+    # 上传构建产物
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        # 上传整个仓库内容，包括.md文件
-        path: '.'
+        # 上传Jekyll构建后的产物
+        path: './_site'
 
     # 部署到GitHub Pages
     - name: Deploy to GitHub Pages
